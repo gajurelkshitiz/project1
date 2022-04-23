@@ -1,3 +1,6 @@
+from wsgiref.validate import InputWrapper
+
+
 message = input('ENter the message:')
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 key = 5
@@ -16,3 +19,6 @@ for i in encrypt:
     decrypt += alphabet[newpos]
 
 print(decrypt)
+ 
+print(input("Enter a name: "))
+
